@@ -108,6 +108,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CustomDoze
 
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.3-service.samsung-9810
+
 # Keylayout
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio_keys.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/gpio_keys.kl \
