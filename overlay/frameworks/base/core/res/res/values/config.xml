@@ -550,4 +550,7 @@
          fading edges is prohibitively expensive on most GPUs. -->
     <bool name="config_ui_enableFadingMarquee">true</bool>
 
+    <!-- Screen off delay -->
+    <integer name="config_screen_off_delay">0</integer>
+
 </resources>
