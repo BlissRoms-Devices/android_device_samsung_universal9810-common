@@ -17,5 +17,5 @@
 
 <resources>    
 <!-- the padding on the start and the end of the statusbar -->
-    <dimen name="status_bar_extra_padding">20dp</dimen>
+    <dimen name="status_bar_extra_padding">16dp</dimen>
 </resources>
