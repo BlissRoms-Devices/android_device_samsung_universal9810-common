@@ -521,4 +521,7 @@
      <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
 
+    <bool name="config_showScreenRecord">true</bool>
+
+    <!-- Whether to use in-built Screen Record service -->
 </resources>
