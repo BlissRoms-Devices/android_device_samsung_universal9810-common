@@ -19,8 +19,8 @@
 
     <integer name="config_proximityCheckTimeout">100</integer>
     <bool name="config_proximityCheckOnWake">true</bool>
-     NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
-     <!-- Default value for proximity check on screen wake
+    <!-- NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)
+    Default value for proximity check on screen wake -->
     <bool name="config_proximityCheckOnWakeEnabledByDefault">true</bool>
 
     <!-- Default values for LiveDisplay -->
