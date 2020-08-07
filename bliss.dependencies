@@ -6,9 +6,9 @@
         "revision": "q"
     },
     {
-        "repository": "adriansian/android_kernel_samsung_universal9810",
+        "repository": "BlissRoms-Devices/android_kernel_samsung_universal9810",
         "target_path": "kernel/samsung/universal9810",
         "remote": "github",
-        "revision": "Q"
+        "revision": "4.9.118_q"
     }
 ]
