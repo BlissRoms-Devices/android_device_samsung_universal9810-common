@@ -17,5 +17,4 @@
     <!-- Battery Health Strings -->
     <string name="config_batDesCap">/sys/class/power_supply/battery/charge_full</string>
     <string name="config_batCurCap">/sys/class/power_supply/battery/fg_fullcapnom</string>
-    <string name="config_batHealth">/sys/class/power_supply/battery/fg_asoc</string>
 </resources>
