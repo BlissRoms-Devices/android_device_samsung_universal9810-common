@@ -6,6 +6,12 @@
         "revision": "q"
     },
     {
+        "repository": "BlissRoms-Devices/proprietary_vendor_samsung",
+        "target_path": "vendor/samsung",
+        "remote": "github",
+        "revision": "q"
+    },
+    {
         "repository": "BlissRoms-Devices/android_kernel_samsung_universal9810",
         "target_path": "kernel/samsung/universal9810",
         "remote": "github",
