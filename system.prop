@@ -20,3 +20,5 @@ ro.debuggable=0
 
 # Hack for Youtube
 sys.display-size=3840x2160
+# Zygote Preforking
+persist.device.config.runtime_native.uasp_pool_enabled=true
