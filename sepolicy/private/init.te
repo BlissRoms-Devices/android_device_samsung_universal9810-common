@@ -17,3 +17,4 @@ allow init sysfs_battery_supply:file { setattr };
 
 allow init {sysfs_touchscreen}:file { open read setattr };
 
+allow init ram_device:blk_file write;
