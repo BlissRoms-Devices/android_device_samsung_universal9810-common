@@ -6,7 +6,7 @@
         "revision": "lineage-18.1"
     },
     {
-        "repository": "synt4x93/android_kernel_samsung_universal9810",
+        "repository": "garett09/android_kernel_samsung_universal9810",
         "target_path": "kernel/samsung/universal9810",
         "remote": "github",
         "revision": "lineage-18.1"
