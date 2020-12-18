@@ -99,6 +99,9 @@ PRODUCT_TARGET_VNDK_VERSION := 29
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_PATH)/framework_manifest.xml
 
+# Dex-preoptimization
+DONT_DEXPREOPT_PREBUILTS := true
+
 # SELinux
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 
