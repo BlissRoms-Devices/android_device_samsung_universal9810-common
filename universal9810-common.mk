@@ -14,7 +14,10 @@
 # limitations under the License.
 #
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-bliss
 
 # VNDK
 PRODUCT_EXTRA_VNDK_VERSIONS := 29
