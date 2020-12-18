@@ -17,6 +17,10 @@ on init
     chmod 0666 /sys/kernel/gpu/gpu_max_clock
     chmod 0666 /sys/kernel/gpu/gpu_min_clock
 
+# Smart Charging
+    chown system system /sys/class/power_supply/battery/batt_slate_mode
+    chmod 0666 /sys/class/power_supply/battery/batt_slate_mode
+
 # Charger
 service charger /system/bin/charger
     class sec-charger

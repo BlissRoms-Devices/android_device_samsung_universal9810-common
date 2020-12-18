@@ -354,8 +354,13 @@
 
      <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
-
+    
+    <!-- Whether to use in-built Screen Record service -->
     <bool name="config_showScreenRecord">true</bool>
 
-    <!-- Whether to use in-built Screen Record service -->
+    <!-- Smart charging -->
+    <bool name="config_SmartChargingAvailable">true</bool>
+    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/batt_slate_mode</string>
+    <string name="config_SmartChargingSuspendValue" translatable="false">1</string>
+    <string name="config_SmartChargingResumeValue" translatable="false">0</string>
 </resources>
