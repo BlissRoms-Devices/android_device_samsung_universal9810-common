@@ -69,6 +69,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Snap
 
+# LPM
+PRODUCT_PACKAGES += \
+    libsuspend
+
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
