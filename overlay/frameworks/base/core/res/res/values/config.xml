@@ -375,7 +375,7 @@
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
-    <integer name="config_deviceHardwareKeys">64</integer>
+    <integer name="config_deviceHardwareKeys">72</integer>
 
     <!-- Hardware keys present on the device with the ability to wake, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
@@ -394,47 +394,10 @@
     <!-- Device have higher than normal aspect ratio sreen -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
 
-    <!-- Defines the actions shown in advanced reboot submenu -->
-    <string-array name="config_restartActionsList">
-        <item>restart</item>
-        <item>restart_recovery</item>
-        <item>restart_download</item>
-    </string-array>
-
     <!-- Smart charging -->
     <bool name="config_SmartChargingAvailable">true</bool>
     <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/batt_slate_mode</string>
     <string name="config_SmartChargingSuspendValue" translatable="false">1</string>
     <string name="config_SmartChargingResumeValue" translatable="false">0</string>
-
-    <!-- Defines the default set of global actions. Actions may still be disabled or hidden based
-         on the current state of the device.
-         Each item must be one of the following strings:
-         "power" = Power off
-         "settings" = An action to launch settings
-         "airplane" = Airplane mode toggle
-         "bugreport" = Take bug report, if available
-         "silent" = silent mode
-         "users" = list of users
-         "restart" = restart device
-         "emergency" = Launch emergency dialer
-         "lockdown" = Lock down device until the user authenticates
-         "logout" =  Logout the current user
-         -->
-    <string-array translatable="false" name="config_globalActionsList">
-        <item>power</item>
-        <item>restart</item>
-        <item>screenrecord</item>
-        <item>recovery</item>
-        <item>lockdown</item>
-        <item>emergency</item>
-        <item>logout</item>
-        <item>screenshot</item>
-        <item>torch</item>
-        <item>airplane</item>
-        <item>settings</item>
-        <item>users</item>
-        <item>silent</item>
-    </string-array>
 
 </resources>
