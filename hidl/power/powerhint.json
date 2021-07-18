@@ -130,8 +130,20 @@
             "Type": "Property"
         }
     ],
-    "Actions": [
-	{
+    "Actions": [ 
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "CPUBigClusterMinFreq",
+            "Duration": 0,
+            "Value": "858000"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "CPULittleClusterMinFreq",
+            "Duration": 0,
+            "Value": "1053000"
+        },
+		{
             "PowerHint": "INTERACTION",
             "Node": "TASchedtuneBoost",
             "Duration": 0,
