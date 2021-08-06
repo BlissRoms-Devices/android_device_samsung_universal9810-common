@@ -342,6 +342,9 @@
     
     <!-- Doze: should the TYPE_PICK_UP_GESTURE sensor be used as a pulse signal. -->
     <bool name="config_dozePulsePickup">false</bool>
+    
+    <!-- Integer indicating wpa_supplicant scan interval in milliseconds -->
+    <integer translatable="false" name="config_wifi_supplicant_scan_interval">50000</integer>
 
     <!-- Values for GPS configuration -->
     <string-array translatable="false" name="config_gpsParameters">
