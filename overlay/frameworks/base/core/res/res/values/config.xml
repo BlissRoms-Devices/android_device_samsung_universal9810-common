@@ -466,5 +466,8 @@
          without explicit consent of the user. If no autofill service with the
          specified name exists on the device, autofill will be disabled by default. -->
     <string name="config_defaultAutofillService" translatable="false">com.google.android.gms/.autofill.service.AutofillService</string>
+    
+    <!-- Shutdown if the battery temperature exceeds (this value * 0.1) Celsius. -->
+    <integer name="config_shutdownBatteryTemperature">500</integer>
 
 </resources>
