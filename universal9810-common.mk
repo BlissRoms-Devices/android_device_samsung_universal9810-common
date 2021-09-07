@@ -72,7 +72,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service.9810
+    lineage.livedisplay@2.1-service.9810
 
 # LPM
 PRODUCT_PACKAGES += \
